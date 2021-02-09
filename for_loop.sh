@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# 1. C style FOR loop
+# 1. C style of FOR loop
 
-# As dash does not support C style FOR loop, and in Ubuntu, by default sh is a symbol link of dash.
+# In Ubuntu, by default sh is symbol link to dash, and dash does not support the C style of FOR loop.
 # Please make sure to use bash run this script, otherwise, it will print error:
 # "Syntax error: Bad for loop variable"
 
@@ -21,7 +21,7 @@ printf "\n"
 
 
 
-# 2. Python style FOR IN loop
+# 2. Python style of FOR IN loop
 
 # Python style FOR IN loop is more popular and supported in most of shells
 # for variable in var_list
