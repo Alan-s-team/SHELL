@@ -2,7 +2,7 @@
 
 # 1. C style FOR loop
 
-# As dash does not support C style FOR loop, and sh is a symbol link of dash.
+# As dash does not support C style FOR loop, and in Ubuntu, by default sh is a symbol link of dash.
 # Please make sure to use bash run this script, otherwise, it will print error:
 # "Syntax error: Bad for loop variable"
 
